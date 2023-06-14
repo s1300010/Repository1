@@ -5,6 +5,13 @@
 int main() {
     int die1, die2, total;
     char name[40];
+    
+    
+    printf("What is your name?\n");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
+    
+    char name[40];
 
 
     srand(time(NULL));
